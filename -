@@ -1,0 +1,82 @@
+System:    Host: Vincent Kernel: 4.8.0-53-generic x86_64 (64 bit gcc: 5.4.0)
+           Desktop: Cinnamon 3.6.6 (Gtk 3.18.9-1ubuntu3.3) dm: lightdm Distro: Linux Mint 18.3 Sylvia
+Machine:   System: LENOVO (portable) product: 80FG v: Lenovo Z70-80 Chassis: type: 10 v: Lenovo Z70-80
+           Mobo: LENOVO model: Lenovo Z70-80 v: 31900058 WIN Bios: LENOVO v: ABCN95WW date: 08/03/2015
+CPU:       Dual core Intel Core i7-5500U (-HT-MCP-) cache: 4096 KB
+           flags: (lm nx sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx) bmips: 9577
+           clock speeds: min/max: 500/3000 MHz 1: 2400 MHz 2: 2610 MHz 3: 2403 MHz 4: 2333 MHz
+Graphics:  Card-1: Intel Broadwell-U Integrated Graphics bus-ID: 00:02.0 chip-ID: 8086:1616
+           Card-2: NVIDIA GM108M [GeForce 840M] bus-ID: 04:00.0 chip-ID: 10de:1341
+           Display Server: X.Org 1.18.4 driver: nvidia Resolution: 1920x1080@60.00hz
+           GLX Renderer: GeForce 840M/PCIe/SSE2 GLX Version: 4.5.0 NVIDIA 384.90 Direct Rendering: Yes
+Audio:     Card-1 Intel Wildcat Point-LP High Definition Audio Controller
+           driver: snd_hda_intel bus-ID: 00:1b.0 chip-ID: 8086:9ca0
+           Card-2 Intel Broadwell-U Audio Controller
+           driver: snd_hda_intel bus-ID: 00:03.0 chip-ID: 8086:160c
+           Sound: Advanced Linux Sound Architecture v: k4.8.0-53-generic
+Network:   Card-1: Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+           driver: r8169 v: 2.3LK-NAPI port: 4000 bus-ID: 02:00.0 chip-ID: 10ec:8168
+           IF: enp2s0 state: down mac: <filter>
+           Card-2: Intel Wireless 3160 driver: iwlwifi bus-ID: 03:00.0 chip-ID: 8086:08b4
+           IF: wlp3s0 state: up mac: <filter>
+Drives:    HDD Total Size: 1000.2GB (42.9% used)
+           ID-1: /dev/sda model: ST1000LM014 size: 1000.2GB serial: W770QGQQ
+Partition: ID-1: / size: 901G used: 385G (46%) fs: ext4 dev: /dev/dm-0
+           ID-2: /boot size: 473M used: 67M (15%) fs: ext2 dev: /dev/sda2
+           ID-3: swap-1 size: 17.09GB used: 0.00GB (0%) fs: swap dev: /dev/dm-1
+RAID:      System: supported: N/A
+           No RAID devices: /proc/mdstat, md_mod kernel module present
+           Unused Devices: none
+Sensors:   System Temperatures: cpu: 57.0C mobo: N/A gpu: 0.0:49C
+           Fan Speeds (in rpm): cpu: N/A
+Repos:     Active apt sources in file: /etc/apt/sources.list.d/additional-repositories.list
+           deb https: //packagecloud.io/Enrico204/Whatsapp-Desktop/debian/ stretch main
+           Active apt sources in file: /etc/apt/sources.list.d/gambas-team-gambas3-xenial.list
+           deb http: //ppa.launchpad.net/gambas-team/gambas3/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/google-chrome.list
+           deb [arch=amd64] http: //dl.google.com/linux/chrome/deb/ stable main
+           Active apt sources in file: /etc/apt/sources.list.d/i-nex-development-team-stable-xenial.list
+           deb http: //ppa.launchpad.net/i-nex-development-team/stable/ubuntu xenial main
+           deb-src http: //ppa.launchpad.net/i-nex-development-team/stable/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/keepsolidinc.list
+           deb http: //apt.keepsolid.com/debian jessie main
+           Active apt sources in file: /etc/apt/sources.list.d/linrunner-tlp-xenial.list
+           deb http: //ppa.launchpad.net/linrunner/tlp/ubuntu xenial main
+           deb-src http: //ppa.launchpad.net/linrunner/tlp/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/mono-official.list
+           deb http: //download.mono-project.com/repo/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/nodesource.list
+           deb https: //deb.nodesource.com/node_8.x xenial main
+           deb-src https: //deb.nodesource.com/node_8.x xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/noobslab-icons2-xenial.list
+           deb http: //ppa.launchpad.net/noobslab/icons2/ubuntu xenial main
+           deb-src http: //ppa.launchpad.net/noobslab/icons2/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/official-package-repositories.list
+           deb http: //packages.linuxmint.com sylvia main upstream import backport
+           deb http: //archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+           deb http: //archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+           deb http: //archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+           deb http: //security.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse
+           deb http: //archive.canonical.com/ubuntu/ xenial partner
+           Active apt sources in file: /etc/apt/sources.list.d/ondrej-php-xenial.list
+           deb http: //ppa.launchpad.net/ondrej/php/ubuntu xenial main
+           deb-src http: //ppa.launchpad.net/ondrej/php/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/simonschneegans-testing-xenial.list
+           deb http: //ppa.launchpad.net/simonschneegans/testing/ubuntu xenial main
+           deb-src http: //ppa.launchpad.net/simonschneegans/testing/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/skype-stable.list
+           deb [arch=amd64] https: //repo.skype.com/deb stable main
+           Active apt sources in file: /etc/apt/sources.list.d/soylent-tv-screenstudio-xenial.list
+           deb http: //ppa.launchpad.net/soylent-tv/screenstudio/ubuntu xenial main
+           deb-src http: //ppa.launchpad.net/soylent-tv/screenstudio/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/spotify.list
+           deb http: //repository.spotify.com stable non-free
+           Active apt sources in file: /etc/apt/sources.list.d/teejee2008-ppa-xenial.list
+           deb http: //ppa.launchpad.net/teejee2008/ppa/ubuntu xenial main
+           Active apt sources in file: /etc/apt/sources.list.d/vscode.list
+           deb [arch=amd64] http: //packages.microsoft.com/repos/vscode stable main
+           Active apt sources in file: /etc/apt/sources.list.d/webupd8team-java-xenial.list
+           deb http: //ppa.launchpad.net/webupd8team/java/ubuntu xenial main
+Info:      Processes: 280 Uptime: 36 min Memory: 6495.8/15961.4MB
+           Init: systemd v: 229 runlevel: 5 default: 2 Gcc sys: 5.4.0
+           Client: Unknown python2.7 client inxi: 2.2.35
